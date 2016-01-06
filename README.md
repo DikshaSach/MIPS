@@ -11,18 +11,19 @@ interval. If the entered integer is not in the specified range, prompt again the
 enter an integer in the specified range.  
 Create a sentinel (999 for example) that will allow the user to exit the program  
 <br/>
-<br/>
+
 #mips2
-Program 2. Write a MIPS assembly language program for the following for loop:  
-Pseudocode: for(int j=1; j<15; j++){  
-total=j + constant;  
-println(“for j equal ” + j + “, total equal ” + total);  
-}  
-The constant value should be prompted from the user.  
-In the program use the slt or the slti instruction.  
+Program 2. Write a MIPS assembly language program for the following for loop:  <br/> 
+Pseudocode: for(int j=1; j<15; j++){    <br/>
+total=j + constant;    <br/>
+println(“for j equal ” + j + “, total equal ” + total);   <br/> 
+}    <br/>
+The constant value should be prompted from the user.    <br/>
+In the program use the slt or the slti instruction.    <br/>
 <br/>
-<br/>
+
 #mips3  
+Program 3.  
 Write a MIPS assembly language program that computes the recursive function defined below:  
 Func(n): if (n=0 or n=1 or n=2)  
 then Func(n) = 2;  
